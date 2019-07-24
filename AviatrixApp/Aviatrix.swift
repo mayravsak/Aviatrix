@@ -17,6 +17,7 @@ class Aviatrix {
     var fuelLevel = 5000.0
     var maxFuel = 5000.0
     var milesPerGallon = 0.4
+    var fuelCost = 0.0
     
     
     init (authorName: String) {
@@ -29,8 +30,9 @@ class Aviatrix {
         return running
     }
     
-    func refuel() {
-   
+    func refuel(fuelLevel: Double) -> Double {
+       let fuelLevel = maxFuel
+        return fuelLevel
     }
     
     func flyTo(destination : String) {
