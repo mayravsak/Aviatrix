@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		502D974D20CDF4C10059F502 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D974C20CDF4C10059F502 /* main.swift */; };
+		180BD08722E8D12C00EB51F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BD08522E8CF0B00EB51F5 /* main.swift */; };
 		502D975420CDF54F0059F502 /* Aviatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D975320CDF54F0059F502 /* Aviatrix.swift */; };
 		502D975620CDF55D0059F502 /* AviatrixData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502D975520CDF55D0059F502 /* AviatrixData.swift */; };
 /* End PBXBuildFile section */
@@ -25,8 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		180BD08522E8CF0B00EB51F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		502D974920CDF4C10059F502 /* AviatrixApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AviatrixApp; sourceTree = BUILT_PRODUCTS_DIR; };
-		502D974C20CDF4C10059F502 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		502D975320CDF54F0059F502 /* Aviatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aviatrix.swift; sourceTree = "<group>"; };
 		502D975520CDF55D0059F502 /* AviatrixData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatrixData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,7 +61,7 @@
 		502D974B20CDF4C10059F502 /* AviatrixApp */ = {
 			isa = PBXGroup;
 			children = (
-				502D974C20CDF4C10059F502 /* main.swift */,
+				180BD08522E8CF0B00EB51F5 /* main.swift */,
 				502D975320CDF54F0059F502 /* Aviatrix.swift */,
 				502D975520CDF55D0059F502 /* AviatrixData.swift */,
 			);
@@ -126,8 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				502D975620CDF55D0059F502 /* AviatrixData.swift in Sources */,
-				502D974D20CDF4C10059F502 /* main.swift in Sources */,
 				502D975420CDF54F0059F502 /* Aviatrix.swift in Sources */,
+				180BD08722E8D12C00EB51F5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
