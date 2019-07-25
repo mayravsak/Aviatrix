@@ -35,6 +35,11 @@ class Aviatrix {
         return fuelLevel
     }
     
+    func totalCost(fuelCost: Double) {
+
+        self.fuelCost = Double(data.fuelPrices) * Double(distanceTraveled)
+    }
+    
     func flyTo(destination : String) {
         distanceTraveled += data.knownDistances[location]![destination]!
         location = destination
